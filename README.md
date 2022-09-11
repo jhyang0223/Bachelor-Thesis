@@ -14,6 +14,9 @@ In outdoor work environments where wired LAN access is not possible within a 100
   * Configured Rasberry Pi AP
 
 ## System Structure
+![system diagram](https://user-images.githubusercontent.com/44808660/189515043-303396d8-236f-48d3-b7bc-66a6c4b3d711.png)
+
+![System Functional Block Diagram](https://user-images.githubusercontent.com/44808660/189515052-2035c884-06cc-4057-8b93-37118d70e423.png)
 
 ## Experiment and Result
 

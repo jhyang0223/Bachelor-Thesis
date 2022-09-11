@@ -11,13 +11,16 @@ In outdoor work environments where wired LAN access is not possible within a 100
   * Implemented a Linux Network Device Driver based on SPI Communication with CC1310 that includes Packet's segmentation & assembly function and Flow Control function.
   
 - Jimin Cheon: 
-  * Configured Rasberry Pi AP
+  * Configured Rasberry Pi AP mode
 
 ## System Structure
+### System Diagram
 ![system diagram](https://user-images.githubusercontent.com/44808660/189515043-303396d8-236f-48d3-b7bc-66a6c4b3d711.png)
 
+### System Functional Block Diagram
 ![System Functional Block Diagram](https://user-images.githubusercontent.com/44808660/189515052-2035c884-06cc-4057-8b93-37118d70e423.png)
 
-## Experiment and Result
+We implemented orange blocks in System Functional Block Diagram 
 
-## Limitation
+## Experiment and Result
+Theoretically, our CC1310 settings enabled communication at 500 kbps. However, as a result of running the benchmark app with a connected smartphone, it only came out at a speed of 40 to 70 kbps. This is because the network control packet is not appropriately controlled and is transmitted and received through RF communication.

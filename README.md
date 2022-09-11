@@ -20,7 +20,7 @@ In outdoor work environments where wired LAN access is not possible within a 100
 ### System Functional Block Diagram
 ![System Functional Block Diagram](https://user-images.githubusercontent.com/44808660/189515052-2035c884-06cc-4057-8b93-37118d70e423.png)
 
-We implemented orange blocks in System Functional Block Diagram 
-
+We implemented orange blocks in System Functional Block Diagram except for the Radius server.  
+In the operation of our system, it worked without a Radius server. But the professor said it should be implemented later. 
 ## Experiment and Result
 Theoretically, our CC1310 settings enabled communication at 500 kbps. However, as a result of running the benchmark app with a connected smartphone, it only came out at a speed of 40 to 70 kbps. This is because the network control packet is not appropriately controlled and is transmitted and received through RF communication.
